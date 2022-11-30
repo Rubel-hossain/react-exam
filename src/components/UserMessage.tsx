@@ -1,11 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import "../styles/user_message.css";
 
 export default function UserMessage({ getTextData }: any) {
   const [userMessage, setUserMessage] = useState<string>("");
   const [btnDisable, setBtnDisble] = useState<boolean>(true);
-
-  const formRef = useRef();
 
   const handleTextChange = (e: any) => {
     let msg = e?.target?.value;
