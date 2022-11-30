@@ -1,0 +1,13 @@
+.user-text-area textarea {
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+}
+.user-text-area button {
+    margin-top: 5px;
+    float: right;
+}
+.user-text-area button:disabled {
+    opacity: 0.8;
+    cursor: no-drop;
+}

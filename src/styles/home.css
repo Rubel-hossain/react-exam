@@ -1,0 +1,84 @@
+:root {
+    --red-color: #cc0000;
+    --white-text: #ffffff;
+    --black-bg: #cecece;
+    --white-bg: #ffffff;
+    --text-color: #2f4f4f;
+    --black-text: #000000;
+    --dark-btn-bg: #f0f8ff;
+    --dark-btn-color: #800080; 
+    --dark-text: #696969;
+    --dark-bg-2: #008080;
+}
+.row {
+    display: flex;
+}
+.col-6 {
+ width: 50%;
+ box-sizing: border-box;
+ height: 100vh;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+.pb-5 {
+    padding-bottom: 3rem;
+}
+.mt-5 {
+    margin-top: 3rem;
+}
+.mb-5{
+    margin-bottom: 3rem;
+}
+.pl-5 {
+    padding-left: 3rem;
+}
+.pr-5 {
+    padding-right: 3rem;
+}
+.p-5 {
+  padding: 3rem;
+}
+
+/******************* style home page ***************/
+.left-part {
+    background-color: var(--black-bg);
+    color: var(--text-color);
+}
+button {
+    color: var(--white-text);
+    background-color: var(--red-color);
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.dark-theme button {
+  background-color: var(--dark-btn-bg);
+  color: var(--dark-btn-color);
+  border: 1px solid var(--black-text);
+}
+.dark-theme .left-part {
+    background-color: var(--white-text);
+    color: var(--dark-text);
+}
+.dark-theme .right-part {
+    background-color: var(--dark-bg-2);
+    color: var(--white-text);
+}
+.right-part {
+    color: var(--black-text);
+    background-color: var(--white-bg);
+}
+
+.button-output ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.button-output ul li {
+    display: inline-block;
+    margin: 5px;
+}
